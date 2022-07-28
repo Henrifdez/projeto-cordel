@@ -104,4 +104,20 @@ footer {
     section {
         line-height: 30px;
     }
+    
+    section#img01 {
+        background-image: url('beijo.jpg');
+        background-position: center center;
+        
+    }
+    
+    section#img02 {
+        background-image: url('chuva.jpg');
+        background-position: center center;
+        
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
