@@ -99,3 +99,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    section {
+        line-height: 30px;
+    }
+}
