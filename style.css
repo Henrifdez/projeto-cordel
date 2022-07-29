@@ -18,7 +18,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: var(--fonte1);
 }
 
@@ -83,14 +83,14 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('beijo.jpg');
+    background-image: url('beijo.jpeg');
     background-position: right center;
     
 }
 
 section#img02 {
-    background-image: url('chuva.jpg');
-    
+    background-image: url('chuva.jpeg');
+    background-position: center center;
 }
 
 footer {
@@ -100,19 +100,28 @@ footer {
     padding: 10px;
 }
 
+.social {
+    padding: 8px;
+}
+
+i {
+    margin-top: 8px;
+    margin-right: 30px;
+}
+
 @media screen and (max-width: 600px) {
     section {
         line-height: 30px;
     }
     
     section#img01 {
-        background-image: url('beijo.jpg');
+        background-image: url('beijo.jpeg');
         background-position: center center;
         
     }
     
     section#img02 {
-        background-image: url('chuva.jpg');
+        background-image: url('chuva.jpeg');
         background-position: center center;
         
     }
