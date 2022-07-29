@@ -111,6 +111,10 @@ i {
     margin-right: 30px;
 }
 
+i:hover {
+    background: none;
+}
+
 @media screen and (max-width: 600px) {
     section {
         line-height: 30px;
