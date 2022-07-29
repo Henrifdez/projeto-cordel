@@ -84,12 +84,14 @@ section.imagem > p {
 
 section#img01 {
     background-image: url('beijo.jpeg');
+    background-size: cover;
     background-position: right center;
     
 }
 
 section#img02 {
     background-image: url('chuva.jpeg');
+    background-size: cover;
     background-position: center center;
 }
 
