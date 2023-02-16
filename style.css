@@ -128,7 +128,6 @@ i:hover {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.2s ease;
-
 }
 
 ::-webkit-scrollbar {width: 10px;}
