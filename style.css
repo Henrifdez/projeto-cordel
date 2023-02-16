@@ -119,7 +119,7 @@ i:hover {
     position: fixed;
     inset: 0;
     width: 100%;
-    height: 3px;
+    height: 8px;
 }
 
 .article-progress {
@@ -142,13 +142,13 @@ i:hover {
     section#img01 {
         background-image: url('beijo.jpeg');
         background-position: center center;
-        
+        background-attachment: fixed;       
     }
     
     section#img02 {
         background-image: url('chuva.jpeg');
         background-position: center center;
-        
+        background-attachment: fixed;  
     }
 
     section.imagem > p {
